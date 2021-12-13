@@ -1,0 +1,13 @@
+.card{
+   max-width: 230px;
+   max-height: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    margin: 0rem auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    position: absolute;
+    top:20%;
+    left:42%;
+    
+}

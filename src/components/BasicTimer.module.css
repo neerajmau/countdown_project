@@ -1,0 +1,83 @@
+ .container {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            height: 555px;
+            display: flex;
+            justify-content: center;
+          background-color: rgb(184, 113, 22);
+ 
+        }
+
+        .main {
+            width: 300px;
+            height: 300px;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+        .input{
+            width: 300px;
+            height: 300px;
+            padding:50px 50px 0 100px;
+            background-color: whitesmoke
+        }
+     
+        .input input{
+          width: 25px;
+          height: 20px;
+          display: inline-block;
+          border-style: none;
+        }
+        .input input[type="text"]{
+          font-size: 20px;
+        }
+    
+        span{
+          font-size: 20px
+        }
+        .button_part{
+            display: flex;
+            align-items: flex-end;
+        }
+        .left {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(6, 196, 6);
+        }
+        .stop{
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.87)
+        }
+      
+        .right {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(46, 46, 238);
+        }
+
+        .button_part i{
+         position: absolute;
+         top:180px;
+         font-size: 40px;
+        }
+        .colorChange{
+          color: red;
+        }
+       
+        .displaytimeshow{
+           display: flex;
+         justify-content: center;
+          color: blue;
+        }
