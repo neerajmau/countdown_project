@@ -14,7 +14,7 @@
           border-style: none;
         }
        
-        .input input[type="text"]{
+        .input input[type="number"]{
           font-size: 20px;
         }
         span{

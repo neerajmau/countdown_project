@@ -10,9 +10,9 @@ export default function Input(props) {
 
     return (
         <div>
-            <input type="text" value={h} placeholder='00' onChange={(e) => dispatch(setHours(e.target.value))} onClick={() => dispatch(onFocus1("hours"))} ></input><span>:</span>
-            <input type="text" value={m} placeholder='00' onChange={(e) => dispatch(setMinute(e.target.value))} onClick={() => dispatch(onFocus1("minute"))}></input><span>:</span>
-            <input type="text" value={s} placeholder='00' onChange={(e) => dispatch(setSecond(e.target.value))} onClick={() => dispatch(onFocus1("second"))}></input>
+            <input type="number" value={h} placeholder='00' onChange={(e) => dispatch(setHours(e.target.value))} onClick={() => dispatch(onFocus1("hours"))} ></input><span>:</span>
+            <input type="number" value={m} placeholder='00' onChange={(e) => dispatch(setMinute(e.target.value))} onClick={() => dispatch(onFocus1("minute"))}></input><span>:</span>
+            <input type="number" value={s} placeholder='00' onChange={(e) => dispatch(setSecond(e.target.value))} onClick={() => dispatch(onFocus1("second"))}></input>
         </div>
     )
 }
